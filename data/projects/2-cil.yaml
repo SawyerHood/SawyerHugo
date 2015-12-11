@@ -1,0 +1,8 @@
+modalID: 2
+title: Center for Independent Living
+date: "01/14-10/14"
+img: cil.png
+client: Center of Independent Living 
+clientLink: "#"
+category: Jr. Programmer
+description: Programmed features for CIL's inventory and content management sytem using Django and Python. 

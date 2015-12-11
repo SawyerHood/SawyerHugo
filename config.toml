@@ -77,9 +77,9 @@ theme = "creative"
             description = "I've been a TA for intro to programming classes at UCF and I've taught highschoolers how to program in Python."
     # Portfolio modals
 	[params.portfolio.modal]
-        client = "Client"
-        date = "Date"
-        category = "Category"
+        client = "Employer"
+        date = "Dates"
+        category = "Job Title"
         buttonText = "Close"
 
     # Aside section
