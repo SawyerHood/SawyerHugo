@@ -1,0 +1,98 @@
+baseurl = "http://sawyerhood.com"
+languageCode = "en-us"
+title = "Sawyer Hood"
+theme = "creative"
+
+[params]
+
+	# You can use Markdown syntax for urls [text](//url.to/source) for
+	# most longer texts.
+
+	# All icons using Fontawesome's icon font. Look at fortawesome.github.io/Font-Awesome/icons/
+	# for more icons. The icons are represented by their corresponding
+	# CSS class.
+
+	# All projects of the portfolio are defined in their own files.
+	# You can find example projects at 'exampleSite/data/projects'. Copy the 'projects'
+	# folder into the 'data' directory at the root of this Hugo site.
+	# For more informtion take a look at the README.
+
+	# To provide some metadata for search engines feel free to add a few
+    # information about you and your website.
+	name = "Sawyer Hood"
+	description = "Hacker / Student"
+
+	# The path must be relative to the static folder
+	favicon = "favicon.ico"
+
+
+	# Navigation
+	[params.navigation]
+		brand = "Sawyer Hood"
+
+		[params.navigation.links]
+			about     = "About"
+			services  = "Skills"
+			portfolio = "Experience"
+			contact   = "Contact"
+
+
+	# Hero section
+	[params.hero]
+		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
+		slogan     = "Sawyer"
+		subtitle   = "You have come to the homepage of Sawyer Hood. Currently a Computer Science student at the University of Central Florida."
+		buttonText = "Find out more"
+
+
+	# About section
+	[params.about]
+		headline    = "Here to Hack"
+		description = "I'm a CS senior in Orlando who loves web development, video games, coffee, philosophy, and more things than I can list. In my spare time you can generally find me binge watching Netflix, solving puzzles, or exploring new technologies."
+		buttonText  = "Get started!"
+
+
+	# Service section
+	[params.services]
+		headline = "Here to code"
+
+        [[params.services.list]]
+            icon = "fa-code"
+            title = "Client Side Development"
+            description = "I've experience using the latest practices with JavaScript, React, HTML, and CSS."
+
+        [[params.services.list]]
+			icon = "fa-server"
+			title = "Server Side Development"
+			description = "I've deployed sweet backend code with Django/Python, Node.js, and Hack/PHP."
+
+	[[params.services.list]]
+            icon = "fa-gamepad"
+            title = "Game Development"
+            description = "I've helped write an Android game using Java and LibGDX and am currently learning C# and Unity to create virtual reality simulations."
+
+	[[params.services.list]]
+            icon = "fa-graduation-cap"
+            title = "Teaching"
+            description = "I've been a TA for intro to programming classes at UCF and I've taught highschoolers how to program in Python."
+    # Portfolio modals
+	[params.portfolio.modal]
+        client = "Client"
+        date = "Date"
+        category = "Category"
+        buttonText = "Close"
+
+    # Aside section
+	[params.aside]
+		headline = "Check Me out on Github"
+
+		[params.aside.button]
+			text = "Github"
+			link = "https://github.com/SawyerHood"
+
+	# Contact section
+	[params.contact]
+		headline = "Let's Get In Touch!"
+		description = "I'm always looking to get in touch with cool people. Give me a call or shoot me an email"
+		phone = "352-874-7100"
+		email = "sawyerjhood@gmail.com"
