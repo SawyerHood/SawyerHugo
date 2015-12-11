@@ -1,4 +1,4 @@
-baseurl = "http://sawyerhood.com"
+baseurl = "http://sawyerhood.com/"
 languageCode = "en-us"
 title = "Sawyer Hood"
 theme = "creative"
@@ -41,7 +41,7 @@ theme = "creative"
 	[params.hero]
 		# To change the background of the hero section, replace the 'header.jpg' at './static/img' with your own.
 		slogan     = "Sawyer"
-		subtitle   = "You have come to the homepage of Sawyer Hood. Currently a Computer Science student at the University of Central Florida."
+		subtitle   = "You have come to the homepage of Sawyer Hood. I'm currently a Computer Science student at the University of Central Florida."
 		buttonText = "Find out more"
 
 
